@@ -1,0 +1,40 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Matemathica",
+    "slug": "matemathica"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "title": "Lineural funcional",
+    "subject": 1,
+    "owner": 1,
+    "slug": "lineural-funcional",
+    "overview": "Hi everyone! Its Arhimed.",
+    "created": "2024-02-02T14:33:11.806Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "title": "Junior",
+    "course": 1,
+    "description": "FfawFWfawfaf"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "title": "Middle",
+    "course": 1,
+    "description": "ahhwragga"
+  }
+}
+]
